@@ -1,0 +1,70 @@
+flagged label outliers: 677 (1.41%)
+time time_m07 baseline_lane_rpm 91.27 4.023
+time time_m07 ridge_log 47.76 2.066
+time time_m07 gbm_plain 41.61 1.776
+time time_m07 hybrid_gbm_linear 41.63 1.969
+time time_m07 additive_gbm_no_trend 52.54 2.316
+time time_m07 final_ensemble 36.45 1.684
+time time_m08 baseline_lane_rpm 78.56 3.7
+time time_m08 ridge_log 43.99 1.955
+time time_m08 gbm_plain 91.67 4.262
+time time_m08 hybrid_gbm_linear 36.2 1.625
+time time_m08 additive_gbm_no_trend 65.4 3.163
+time time_m08 final_ensemble 41.59 1.774
+time time_m09 baseline_lane_rpm 80.5 3.671
+time time_m09 ridge_log 45.82 1.983
+time time_m09 gbm_plain 49.46 2.136
+time time_m09 hybrid_gbm_linear 39.67 1.728
+time time_m09 additive_gbm_no_trend 88.19 3.675
+time time_m09 final_ensemble 37.27 1.652
+time time_m10 baseline_lane_rpm 78.24 3.656
+time time_m10 ridge_log 46.33 2.119
+time time_m10 gbm_plain 55.95 2.542
+time time_m10 hybrid_gbm_linear 38.71 1.757
+time time_m10 additive_gbm_no_trend 79.73 3.665
+time time_m10 final_ensemble 36.46 1.702
+time time_gap_oct baseline_lane_rpm 78.31 3.659
+time time_gap_oct ridge_log 46.02 2.092
+time time_gap_oct gbm_plain 63.66 2.898
+time time_gap_oct hybrid_gbm_linear 38.71 1.775
+time time_gap_oct additive_gbm_no_trend 81.59 3.748
+time time_gap_oct final_ensemble 37.04 1.741
+random random_k0 baseline_lane_rpm 95.56 4.276
+random random_k0 final_ensemble 34.52 1.533
+random random_k1 baseline_lane_rpm 94.06 4.3
+random random_k1 final_ensemble 33.87 1.523
+random random_k2 baseline_lane_rpm 94.33 4.282
+random random_k2 final_ensemble 33.65 1.524
+random random_k3 baseline_lane_rpm 95.24 4.26
+random random_k3 final_ensemble 34.31 1.516
+random random_k4 baseline_lane_rpm 93.52 4.209
+random random_k4 final_ensemble 34.21 1.509
+unseen_city city_k0 baseline_lane_rpm 95.09 4.406
+unseen_city city_k0 final_ensemble 35.53 1.662
+unseen_city city_k1 baseline_lane_rpm 115.82 4.338
+unseen_city city_k1 final_ensemble 48.68 1.76
+unseen_city city_k2 baseline_lane_rpm 91.67 4.24
+unseen_city city_k2 final_ensemble 35.47 1.669
+unseen_city city_k3 baseline_lane_rpm 90.35 4.278
+unseen_city city_k3 final_ensemble 35.73 1.729
+unseen_city city_k4 baseline_lane_rpm 97.86 4.437
+unseen_city city_k4 final_ensemble 39.4 1.736
+unseen_city city_k5 baseline_lane_rpm 86.3 4.246
+unseen_city city_k5 final_ensemble 33.95 1.656
+unseen_city city_k6 baseline_lane_rpm 90.55 4.225
+unseen_city city_k6 final_ensemble 33.9 1.622
+unseen_city city_k7 baseline_lane_rpm 93.51 4.327
+unseen_city city_k7 final_ensemble 36.59 1.643
+                                   clean_MAE  clean_RMSE  clean_MAPE_%  clean_bias_%  raw_MAE
+scheme      model                                                                            
+random      baseline_lane_rpm         94.542     131.537         4.265         0.101  144.001
+            final_ensemble            34.114      49.650         1.521        -0.045   84.291
+time        additive_gbm_no_trend     73.490      95.432         3.313        -2.954  128.331
+            baseline_lane_rpm         81.377     110.915         3.742        -0.570  136.249
+            final_ensemble            37.760      54.131         1.711         0.012   93.117
+            final_keep_outliers       39.233      56.226         1.758         0.216   94.564
+            gbm_plain                 60.468      82.911         2.723        -1.935  115.502
+            hybrid_gbm_linear         38.983      55.691         1.771        -0.168   94.345
+            ridge_log                 45.985      65.413         2.043         0.036  101.252
+unseen_city baseline_lane_rpm         95.146     131.549         4.312         0.032  143.116
+            final_ensemble            37.405      54.482         1.685        -0.046   86.039

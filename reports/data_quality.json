@@ -1,0 +1,48 @@
+{
+  "rows": {
+    "train_test": 48000,
+    "validation": 12000
+  },
+  "date_range": {
+    "train_test": [
+      "2025-01-01",
+      "2025-10-31"
+    ],
+    "validation": [
+      "2025-11-01",
+      "2025-12-31"
+    ]
+  },
+  "weight_missing": {
+    "train_test": 300,
+    "validation": 165
+  },
+  "weight_negative": {
+    "train_test": 292,
+    "validation": 145
+  },
+  "weight_at_47500_cap": {
+    "train_test": 1191,
+    "validation": 297
+  },
+  "market_index_missing": {
+    "train_test": 374,
+    "validation": 249
+  },
+  "market_index_within_date_std": 0.0249,
+  "market_index_across_date_std": 0.1665,
+  "label_outliers_flagged": 677,
+  "duplicate_load_ids": 0,
+  "duplicate_feature_rows": 0,
+  "validation_cities_unseen_in_train": [
+    "Allentown",
+    "Charlotte",
+    "Chicago",
+    "Jackson",
+    "Knoxville",
+    "Laredo",
+    "Norfolk",
+    "San Diego"
+  ],
+  "validation_rows_touching_unseen_city": 1447
+}

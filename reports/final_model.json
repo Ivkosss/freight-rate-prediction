@@ -1,0 +1,169 @@
+{
+  "train_rows": 48000,
+  "label_outliers_removed": 677,
+  "trend_per_year_log": 0.07009697459794464,
+  "linear_market_coefficients": {
+    "day_market_index": 0.14107568078923555,
+    "day_quote_signal": -0.010363669536359933,
+    "quote_signal_rel": 0.00675669700575721,
+    "quarter_end_ramp": 0.001423198837042357,
+    "days": 0.00019204650574779355
+  },
+  "december_market_inputs": [
+    {
+      "date": "2025-12-01",
+      "market_index": 0.8349,
+      "quote_signal": 2.052
+    },
+    {
+      "date": "2025-12-02",
+      "market_index": 0.9147,
+      "quote_signal": 2.0341
+    },
+    {
+      "date": "2025-12-03",
+      "market_index": 0.9941,
+      "quote_signal": 2.0533
+    },
+    {
+      "date": "2025-12-04",
+      "market_index": 1.024,
+      "quote_signal": 2.0657
+    },
+    {
+      "date": "2025-12-05",
+      "market_index": 0.9751,
+      "quote_signal": 2.0474
+    },
+    {
+      "date": "2025-12-06",
+      "market_index": 0.8892,
+      "quote_signal": 2.0253
+    },
+    {
+      "date": "2025-12-07",
+      "market_index": 0.8306,
+      "quote_signal": 2.0504
+    },
+    {
+      "date": "2025-12-08",
+      "market_index": 0.8401,
+      "quote_signal": 2.04
+    },
+    {
+      "date": "2025-12-09",
+      "market_index": 0.9172,
+      "quote_signal": 2.0501
+    },
+    {
+      "date": "2025-12-10",
+      "market_index": 0.9989,
+      "quote_signal": 2.0478
+    },
+    {
+      "date": "2025-12-11",
+      "market_index": 1.0272,
+      "quote_signal": 2.0471
+    },
+    {
+      "date": "2025-12-12",
+      "market_index": 0.9815,
+      "quote_signal": 2.0452
+    },
+    {
+      "date": "2025-12-13",
+      "market_index": 0.8966,
+      "quote_signal": 2.0635
+    },
+    {
+      "date": "2025-12-14",
+      "market_index": 0.8383,
+      "quote_signal": 2.0573
+    },
+    {
+      "date": "2025-12-15",
+      "market_index": 0.8479,
+      "quote_signal": 2.0568
+    },
+    {
+      "date": "2025-12-16",
+      "market_index": 0.9241,
+      "quote_signal": 2.0661
+    },
+    {
+      "date": "2025-12-17",
+      "market_index": 1.0022,
+      "quote_signal": 2.0243
+    },
+    {
+      "date": "2025-12-18",
+      "market_index": 1.034,
+      "quote_signal": 2.0464
+    },
+    {
+      "date": "2025-12-19",
+      "market_index": 0.9887,
+      "quote_signal": 2.0334
+    },
+    {
+      "date": "2025-12-20",
+      "market_index": 0.9019,
+      "quote_signal": 2.0602
+    },
+    {
+      "date": "2025-12-21",
+      "market_index": 0.8441,
+      "quote_signal": 2.0891
+    },
+    {
+      "date": "2025-12-22",
+      "market_index": 0.8599,
+      "quote_signal": 2.0239
+    },
+    {
+      "date": "2025-12-23",
+      "market_index": 0.9304,
+      "quote_signal": 2.0328
+    },
+    {
+      "date": "2025-12-24",
+      "market_index": 1.0147,
+      "quote_signal": 2.0521
+    },
+    {
+      "date": "2025-12-25",
+      "market_index": 1.0446,
+      "quote_signal": 2.0539
+    },
+    {
+      "date": "2025-12-26",
+      "market_index": 0.9972,
+      "quote_signal": 2.0536
+    },
+    {
+      "date": "2025-12-27",
+      "market_index": 0.9145,
+      "quote_signal": 2.0382
+    },
+    {
+      "date": "2025-12-28",
+      "market_index": 0.858,
+      "quote_signal": 2.0467
+    },
+    {
+      "date": "2025-12-29",
+      "market_index": 0.8696,
+      "quote_signal": 2.0416
+    },
+    {
+      "date": "2025-12-30",
+      "market_index": 0.944,
+      "quote_signal": 2.0661
+    },
+    {
+      "date": "2025-12-31",
+      "market_index": 1.0273,
+      "quote_signal": 2.0093
+    }
+  ]
+}
